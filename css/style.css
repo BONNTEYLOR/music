@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      
+}
+
+body{
+  font-family:sans-serif;
+}
+
+header{
+  
+  background: url(../images/angel-jimenez.jpg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:60px;
+  color: #fff; 
+}
+
+main{
+  /* margin-top: 25%; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.subtitulo{
+  display:flex;
+  font-size:20px;
+  width: 1000px;
+  height: 1500px;
+  justify-content: center;
+  align-items: center
+}
+
+.subtitle{
+  background: linear-gradient(130deg, #fd7b88, #db0d4b);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color:transparent;
+}
+
+article{
+  background-size: cover;
+  height: 100vh;
+  width: 60%;
+  justify-content: center;
+  margin:5%;
+}
+
+
+h2{
+  margin:20px 0 20px 0;
+}
+
+button,a{
+  margin:200px 0 ;
+  border:none;
+  text-decoration:none;
+  background-color: rgb(255, 69,69);
+  color:#fff;
+  padding:60px 80px;
+  border-radius:70px;
+  font-size: 50px;
+}
+.subtitulo2{
+  display:flex;
+  font-size:80px;
+  margin: 20px 210px 0 0;
+  /* flex-wrap: wrap; */
+}
+
+.image2{
+  display:flex;
+ 
+  width: 100%;
+}
+.contenedor3{
+  background: url(../images/john-raptis.png) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  margin:5%;
+  font-size: 80px;
+  text-align: right;
+}
+
